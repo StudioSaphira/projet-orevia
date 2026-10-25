@@ -4,7 +4,6 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.neoforged.neoforge.common.extensions.IBlockEntityExtension;
 import net.orevia.common.scps.readers.network.ReaderPacket;
 import net.scp_genesis.common.copycatblocks.blockentity.CopycatBlockEntity;
-import net.orevia.common.platform.PlatformModelData;
 import net.orevia.common.platform.PlatformServicesImpl;
 
 public final class NeoForgePlatformServices

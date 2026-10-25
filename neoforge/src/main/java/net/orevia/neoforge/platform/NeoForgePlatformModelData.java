@@ -3,7 +3,6 @@ package net.orevia.neoforge.platform;
 import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.client.model.data.ModelProperty;
 import net.scp_genesis.common.copycatblocks.data.CopycatPart;
-import net.orevia.common.platform.PlatformModelData;
 
 import java.util.EnumMap;
 

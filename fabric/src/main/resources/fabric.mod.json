@@ -10,10 +10,10 @@
 
   "entrypoints": {
     "main": [
-      "net.orevia.fabric.FabricGenesis"
+      "net.orevia.fabric.FabricOrevia"
     ],
     "client": [
-      "net.orevia.fabric.FabricGenesisClient"
+      "net.orevia.fabric.FabricOreviaClient"
     ]
   },
 

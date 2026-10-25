@@ -2,7 +2,7 @@ plugins {
     id 'base'
 }
 
-group = 'net.scp_genesis'
+group = 'net.orevia'
 version = project.mod_version
 
 subprojects {

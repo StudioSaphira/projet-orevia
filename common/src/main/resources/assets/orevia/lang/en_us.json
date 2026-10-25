@@ -7,13 +7,18 @@
   "block.orevia.deepslate_nickel_ore": "Deepslate Nickel Ore",
   "block.orevia.deepslate_pyrolusite_ore": "Deepslate Pyrolusite Ore",
   "block.orevia.nickel_ore": "Nickel Ore",
+  "block.orevia.nickel_block": "Nickel Block",
   "block.orevia.pyrolusite_ore": "Pyrolusite Ore",
   "block.orevia.raw_chromite_block": "Block of Raw Chromite",
   "block.orevia.raw_nickel_block": "Block of Raw Nickel",
   "block.orevia.raw_pyrolusite_block": "Block of Raw Pyrolusite",
+  "item.orevia.nickel_ingot": "Nickel Ingot",
   "item.orevia.raw_chromite": "Raw Chromite",
   "item.orevia.raw_corundum": "Raw Corundum",
   "item.orevia.raw_nickel": "Raw Nickel",
   "item.orevia.raw_pyrolusite": "Raw Pyrolusite",
+  "item.orevia.ruby": "Ruby",
+  "item.orevia.sapphire": "Sapphire",
+  "item.orevia.titanium": "Titanium",
   "item_group.orevia.building_blocks": "Orevia - Ores"
 }

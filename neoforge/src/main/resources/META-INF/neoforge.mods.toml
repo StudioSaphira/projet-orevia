@@ -8,8 +8,8 @@ version="0.1"
 displayName="Orevia"
 displayURL="https://saphira-studio.com"
 logoFile="logo.png"
-credits="Originally developed by the Studio Saphira for the SCP: Genesis project"
-authors="HeroFR, Studio Saphira"
+credits="Studio Saphira"
+authors="HeroFR"
 description="A lightweight Minecraft mod introducing new ores, raw materials, and ingots, designed to serve as a shared resource foundation for other mods by the Studio Saphira."
 
 [[dependencies.scp_genesis]]

@@ -7,7 +7,7 @@ import net.orevia.fabric.platform.FabricPlatformRegistry;
 import net.orevia.fabric.platform.FabricPlatformServices;
 
 @SuppressWarnings("unused")
-public final class FabricGenesis implements ModInitializer {
+public final class FabricOrevia implements ModInitializer {
 
     @Override
     public void onInitialize() {
