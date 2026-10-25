@@ -1,0 +1,19 @@
+{
+  "block.orevia.bauxite": "Bauxite",
+  "block.orevia.chromite_ore": "Minerai de Chromite",
+  "block.orevia.corundum_ore": "Minerai de Corindon",
+  "block.orevia.deepslate_chromite_ore": "Minerai de Chromite des abîmes",
+  "block.orevia.deepslate_corundum_ore": "Minerai de Corindon des abîmes",
+  "block.orevia.deepslate_nickel_ore": "Minerai de Nickel des abîmes",
+  "block.orevia.deepslate_pyrolusite_ore": "Minerai de Pyrolusite des abîmes",
+  "block.orevia.nickel_ore": "Minerai de Nickel",
+  "block.orevia.pyrolusite_ore": "Minerai de Pyrolusite",
+  "block.orevia.raw_chromite_block": "Bloc de Chromite brut",
+  "block.orevia.raw_nickel_block": "Bloc de Nickel brut",
+  "block.orevia.raw_pyrolusite_block": "Bloc de Pyrolusite brut",
+  "item.orevia.chromite": "Chromite",
+  "item.orevia.corundum": "Corindon",
+  "item.orevia.nickel": "Nickel",
+  "item.orevia.pyrolusite": "Pyrolusite",
+  "item_group.orevia.building_blocks": "Orevia - Minerais"
+}
