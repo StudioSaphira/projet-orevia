@@ -4,7 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 /**
- * Global constants used throughout SCP: Genesis.
+ * Global constants used throughout Orevia.
  */
 public final class ModConstants {
 

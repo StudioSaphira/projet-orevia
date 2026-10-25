@@ -2,8 +2,8 @@ package net.orevia.common.registry;
 
 import net.minecraft.world.item.Item;
 
-import net.orevia.common.platform.PlatformRegistry;
-import net.orevia.common.platform.PlatformRegistryObject;
+import net.saphyra.common.platform.PlatformRegistry;
+import net.saphyra.common.platform.PlatformRegistryObject;
 
 public final class ModItems {
 

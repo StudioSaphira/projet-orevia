@@ -12,16 +12,23 @@ credits="Studio Saphira"
 authors="HeroFR"
 description="A lightweight Minecraft mod introducing new ores, raw materials, and ingots, designed to serve as a shared resource foundation for other mods by the Studio Saphira."
 
-[[dependencies.scp_genesis]]
+[[dependencies.orevia]]
     modId="neoforge"
     type="required"
     versionRange="[21.1.263,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.scp_genesis]]
+[[dependencies.orevia]]
     modId="minecraft"
     type="required"
     versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.orevia]]
+    modId="saphyra"
+    type="required"
+    versionRange="[0.1-beta1,)"
     ordering="AFTER"
     side="BOTH"

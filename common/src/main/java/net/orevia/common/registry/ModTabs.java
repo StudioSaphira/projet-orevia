@@ -4,8 +4,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 
-import net.orevia.common.platform.PlatformRegistry;
-import net.orevia.common.platform.PlatformRegistryObject;
+import net.saphyra.common.platform.PlatformRegistry;
+import net.saphyra.common.platform.PlatformRegistryObject;
 
 @SuppressWarnings("CodeBlock2Expr")
 public final class ModTabs {
@@ -24,7 +24,7 @@ public final class ModTabs {
 						() -> registry.createCreativeModeTabBuilder()
 								.title(
 										Component.translatable(
-												"item_group.scp_genesis.ore"
+												"item_group.orevia.building_blocks"
 										)
 								)
 								.icon(

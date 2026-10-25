@@ -29,7 +29,7 @@ neoForge {
     }
 
     mods {
-        scp_genesis {
+        orevia {
             sourceSet sourceSets.main
             sourceSet project(':common').sourceSets.main
         }
@@ -42,4 +42,18 @@ repositories {
 
 dependencies {
     implementation project(':common')
+}
+
+
+dependencies {
+    implementation("net.saphyra:saphyra-neoforge-${rootProject.minecraft_version}:${rootProject.saphyra_version}") {
+        transitive = false
+    }
+}
+
+
+// Package Orevia Common, but keep Saphyra as a separate required mod.
+tasks.named('jar') {
+    from(project(':common').sourceSets.main.output)
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }

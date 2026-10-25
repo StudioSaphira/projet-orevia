@@ -4,8 +4,8 @@ import net.minecraft.world.level.block.Block;
 
 import net.orevia.common.blocks.*;
 
-import net.orevia.common.platform.PlatformRegistry;
-import net.orevia.common.platform.PlatformRegistryObject;
+import net.saphyra.common.platform.PlatformRegistry;
+import net.saphyra.common.platform.PlatformRegistryObject;
 
 public final class ModBlocks {
 

@@ -5,9 +5,11 @@
   "name": "Orevia",
   "description": "A lightweight Minecraft mod introducing new ores, raw materials, and ingots, designed to serve as a shared resource foundation for other mods by the Studio Saphira.",
   "icon": "logo.png",
-  "authors": ["HeroFR","Studio Saphira"],
+  "authors": [
+    "HeroFR",
+    "Studio Saphira"
+  ],
   "environment": "*",
-
   "entrypoints": {
     "main": [
       "net.orevia.fabric.FabricOrevia"
@@ -16,10 +18,10 @@
       "net.orevia.fabric.FabricOreviaClient"
     ]
   },
-
   "depends": {
     "fabricloader": ">=0.19.5",
     "minecraft": "~1.21.1",
-    "fabric-api": ">=0.116.17+1.21.1"
+    "fabric-api": ">=0.116.17+1.21.1",
+    "saphyra": ">=0.1-beta1"
   }
 }

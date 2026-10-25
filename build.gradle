@@ -46,7 +46,7 @@ tasks.register('buildJar', Jar) {
     doLast {
         println ""
         println "========================================"
-        println " SCP GENESIS - JAR FINAL"
+        println " OREVIA - JAR FINAL"
         println "========================================"
         println "Fichier : ${archiveFile.get().asFile.absolutePath}"
         println "Taille  : ${archiveFile.get().asFile.length()} octets"
@@ -56,4 +56,25 @@ tasks.register('buildJar', Jar) {
 
 tasks.register('buildAll') {
     dependsOn 'buildJar'
+}
+subprojects {
+    repositories {
+        def saphyraRepository = providers.gradleProperty('saphyraRepository')
+        if (saphyraRepository.isPresent()) {
+            exclusiveContent {
+                forRepository {
+                    maven {
+                        name = 'Saphyra'
+                        url = uri(saphyraRepository.get())
+                    }
+                }
+                filter { includeGroup 'net.saphyra' }
+            }
+        } else {
+            exclusiveContent {
+                forRepository { mavenLocal() }
+                filter { includeGroup 'net.saphyra' }
+            }
+        }
+    }
 }
