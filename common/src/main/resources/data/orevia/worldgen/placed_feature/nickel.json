@@ -1,0 +1,896 @@
+{
+  "feature": "orevia:nickel",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 6
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -48
+              }
+            },
+            "weight": 65
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -47
+              }
+            },
+            "weight": 130
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -46
+              }
+            },
+            "weight": 195
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -45
+              }
+            },
+            "weight": 260
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -44
+              }
+            },
+            "weight": 325
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -43
+              }
+            },
+            "weight": 390
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -42
+              }
+            },
+            "weight": 455
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -41
+              }
+            },
+            "weight": 520
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -40
+              }
+            },
+            "weight": 585
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -39
+              }
+            },
+            "weight": 650
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -38
+              }
+            },
+            "weight": 715
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -37
+              }
+            },
+            "weight": 780
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -36
+              }
+            },
+            "weight": 845
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -35
+              }
+            },
+            "weight": 910
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -34
+              }
+            },
+            "weight": 975
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -33
+              }
+            },
+            "weight": 1040
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -32
+              }
+            },
+            "weight": 1105
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -31
+              }
+            },
+            "weight": 1170
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -30
+              }
+            },
+            "weight": 1235
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -29
+              }
+            },
+            "weight": 1300
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -28
+              }
+            },
+            "weight": 1365
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -27
+              }
+            },
+            "weight": 1430
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -26
+              }
+            },
+            "weight": 1495
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -25
+              }
+            },
+            "weight": 1560
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -24
+              }
+            },
+            "weight": 1625
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -23
+              }
+            },
+            "weight": 1690
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -22
+              }
+            },
+            "weight": 1755
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -21
+              }
+            },
+            "weight": 1820
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -20
+              }
+            },
+            "weight": 1885
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -19
+              }
+            },
+            "weight": 1950
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -18
+              }
+            },
+            "weight": 2015
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -17
+              }
+            },
+            "weight": 2080
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -16
+              }
+            },
+            "weight": 2145
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -15
+              }
+            },
+            "weight": 2112
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -14
+              }
+            },
+            "weight": 2079
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -13
+              }
+            },
+            "weight": 2046
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -12
+              }
+            },
+            "weight": 2013
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -11
+              }
+            },
+            "weight": 1980
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -10
+              }
+            },
+            "weight": 1947
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -9
+              }
+            },
+            "weight": 1914
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -8
+              }
+            },
+            "weight": 1881
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -7
+              }
+            },
+            "weight": 1848
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -6
+              }
+            },
+            "weight": 1815
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -5
+              }
+            },
+            "weight": 1782
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -4
+              }
+            },
+            "weight": 1749
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -3
+              }
+            },
+            "weight": 1716
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -2
+              }
+            },
+            "weight": 1683
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": -1
+              }
+            },
+            "weight": 1650
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 0
+              }
+            },
+            "weight": 1617
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 1
+              }
+            },
+            "weight": 1584
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 2
+              }
+            },
+            "weight": 1551
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 3
+              }
+            },
+            "weight": 1518
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 4
+              }
+            },
+            "weight": 1485
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 5
+              }
+            },
+            "weight": 1452
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 6
+              }
+            },
+            "weight": 1419
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 7
+              }
+            },
+            "weight": 1386
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 8
+              }
+            },
+            "weight": 1353
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 9
+              }
+            },
+            "weight": 1320
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 10
+              }
+            },
+            "weight": 1287
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 11
+              }
+            },
+            "weight": 1254
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 12
+              }
+            },
+            "weight": 1221
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 13
+              }
+            },
+            "weight": 1188
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 14
+              }
+            },
+            "weight": 1155
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 15
+              }
+            },
+            "weight": 1122
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 16
+              }
+            },
+            "weight": 1089
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 17
+              }
+            },
+            "weight": 1056
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 18
+              }
+            },
+            "weight": 1023
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 19
+              }
+            },
+            "weight": 990
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 20
+              }
+            },
+            "weight": 957
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 21
+              }
+            },
+            "weight": 924
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 22
+              }
+            },
+            "weight": 891
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 23
+              }
+            },
+            "weight": 858
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 24
+              }
+            },
+            "weight": 825
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 25
+              }
+            },
+            "weight": 792
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 26
+              }
+            },
+            "weight": 759
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 27
+              }
+            },
+            "weight": 726
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 28
+              }
+            },
+            "weight": 693
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 29
+              }
+            },
+            "weight": 660
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 30
+              }
+            },
+            "weight": 627
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 31
+              }
+            },
+            "weight": 594
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 32
+              }
+            },
+            "weight": 561
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 33
+              }
+            },
+            "weight": 528
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 34
+              }
+            },
+            "weight": 495
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 35
+              }
+            },
+            "weight": 462
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 36
+              }
+            },
+            "weight": 429
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 37
+              }
+            },
+            "weight": 396
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 38
+              }
+            },
+            "weight": 363
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 39
+              }
+            },
+            "weight": 330
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 40
+              }
+            },
+            "weight": 297
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 41
+              }
+            },
+            "weight": 264
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 42
+              }
+            },
+            "weight": 231
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 43
+              }
+            },
+            "weight": 198
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 44
+              }
+            },
+            "weight": 165
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 45
+              }
+            },
+            "weight": 132
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 46
+              }
+            },
+            "weight": 99
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 47
+              }
+            },
+            "weight": 66
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 48
+              }
+            },
+            "weight": 33
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

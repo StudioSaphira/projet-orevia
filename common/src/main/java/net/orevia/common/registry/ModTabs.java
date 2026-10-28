@@ -7,7 +7,7 @@ import net.minecraft.network.chat.Component;
 import net.saphyra.common.platform.PlatformRegistry;
 import net.saphyra.common.platform.PlatformRegistryObject;
 
-@SuppressWarnings("CodeBlock2Expr")
+/** Exposes Orevia ores, raw materials and refined nickel in progression order. */
 public final class ModTabs {
 
 	private ModTabs() {}
@@ -35,6 +35,23 @@ public final class ModTabs {
 								.displayItems(
 										(parameters, tabData) -> {
 											tabData.accept(ModItems.BAUXITE.get());
+											tabData.accept(ModItems.NICKEL_ORE.get());
+											tabData.accept(ModItems.DEEPSLATE_NICKEL_ORE.get());
+                                            tabData.accept(ModItems.RAW_NICKEL.get());
+                                            tabData.accept(ModItems.RAW_NICKEL_BLOCK.get());
+                                            tabData.accept(ModItems.NICKEL_INGOT.get());
+                                            tabData.accept(ModItems.NICKEL_BLOCK.get());
+											tabData.accept(ModItems.CHROMITE_ORE.get());
+											tabData.accept(ModItems.DEEPSLATE_CHROMITE_ORE.get());
+                                            tabData.accept(ModItems.RAW_CHROMITE.get());
+                                            tabData.accept(ModItems.RAW_CHROMITE_BLOCK.get());
+											tabData.accept(ModItems.PYROLUSITE_ORE.get());
+											tabData.accept(ModItems.DEEPSLATE_PYROLUSITE_ORE.get());
+                                            tabData.accept(ModItems.RAW_PYROLUSITE.get());
+                                            tabData.accept(ModItems.RAW_PYROLUSITE_BLOCK.get());
+											tabData.accept(ModItems.CORUNDUM_ORE.get());
+											tabData.accept(ModItems.DEEPSLATE_CORUNDUM_ORE.get());
+                                            tabData.accept(ModItems.RAW_CORUNDUM.get());
 										}
 								)
 								.withSearchBar()

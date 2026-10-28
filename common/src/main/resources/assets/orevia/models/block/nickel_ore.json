@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "scp_genesis:block/nickel_ore"
+    "all": "orevia:block/nickel_ore"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "orevia:nickel_ore",
+    "orevia:deepslate_nickel_ore",
+    "orevia:pyrolusite_ore",
+    "orevia:deepslate_pyrolusite_ore",
+    "orevia:raw_nickel_block",
+    "orevia:raw_pyrolusite_block",
+    "orevia:nickel_block"
+  ]
+}

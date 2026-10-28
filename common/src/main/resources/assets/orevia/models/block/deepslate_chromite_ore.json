@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "scp_genesis:block/deepslate_chromite_ore"
+    "all": "orevia:block/deepslate_chromite_ore"
   }
 }

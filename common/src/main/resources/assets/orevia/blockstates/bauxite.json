@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "scp_genesis:block/bauxite"}
+    "": {
+      "model": "orevia:block/bauxite"
+    }
   }
 }

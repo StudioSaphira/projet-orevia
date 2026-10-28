@@ -1,6 +1,18 @@
 {
   "replace": false,
   "values": [
-    "orevia:bauxite"
+    "orevia:bauxite",
+    "orevia:nickel_ore",
+    "orevia:deepslate_nickel_ore",
+    "orevia:chromite_ore",
+    "orevia:deepslate_chromite_ore",
+    "orevia:pyrolusite_ore",
+    "orevia:deepslate_pyrolusite_ore",
+    "orevia:corundum_ore",
+    "orevia:deepslate_corundum_ore",
+    "orevia:raw_nickel_block",
+    "orevia:raw_chromite_block",
+    "orevia:raw_pyrolusite_block",
+    "orevia:nickel_block"
   ]
 }

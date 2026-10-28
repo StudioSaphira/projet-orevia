@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "scp_genesis:item/corundum"
+    "layer0": "orevia:block/corundum_ore"
   }
 }

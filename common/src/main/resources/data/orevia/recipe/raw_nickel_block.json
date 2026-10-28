@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "orevia:raw_nickel"
+    }
+  },
+  "result": {
+    "id": "orevia:raw_nickel_block",
+    "count": 1
+  }
+}

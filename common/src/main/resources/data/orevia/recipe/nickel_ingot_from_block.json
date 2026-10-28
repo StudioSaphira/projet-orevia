@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "orevia:nickel_block"
+    }
+  ],
+  "result": {
+    "id": "orevia:nickel_ingot",
+    "count": 9
+  }
+}

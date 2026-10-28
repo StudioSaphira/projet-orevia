@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "scp_genesis:block/pyrolusite_ore"}
+    "": {
+      "model": "orevia:block/pyrolusite_ore"
+    }
   }
 }

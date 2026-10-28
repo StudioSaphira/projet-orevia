@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "group": "nickel_ingot",
+  "ingredient": {
+    "item": "orevia:deepslate_nickel_ore"
+  },
+  "result": {
+    "id": "orevia:nickel_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

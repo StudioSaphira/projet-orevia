@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "group": "nickel_ingot",
+  "ingredient": {
+    "item": "orevia:raw_nickel"
+  },
+  "result": {
+    "id": "orevia:nickel_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 100
+}

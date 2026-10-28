@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "scp_genesis:item/nickel"
+    "layer0": "orevia:item/raw_nickel"
   }
 }

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "orevia:chromite_ore",
+    "orevia:deepslate_chromite_ore",
+    "orevia:raw_chromite_block"
+  ]
+}

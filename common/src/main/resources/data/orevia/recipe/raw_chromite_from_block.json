@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "orevia:raw_chromite_block"
+    }
+  ],
+  "result": {
+    "id": "orevia:raw_chromite",
+    "count": 9
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "orevia:raw_pyrolusite_block"
+    }
+  ],
+  "result": {
+    "id": "orevia:raw_pyrolusite",
+    "count": 9
+  }
+}

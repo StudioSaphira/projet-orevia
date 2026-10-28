@@ -14,5 +14,6 @@ public final class NeoForgeOrevia {
         var registry = new NeoForgePlatformRegistry(ModConstants.MOD_ID, modEventBus);
         ModRegistries.register(registry);
         registry.register();
+        net.orevia.neoforge.worldgen.NeoForgeWorldgen.register(modEventBus);
     }
 }

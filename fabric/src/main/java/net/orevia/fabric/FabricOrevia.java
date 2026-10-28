@@ -13,5 +13,6 @@ public final class FabricOrevia implements ModInitializer {
         var registry = new FabricPlatformRegistry(ModConstants.MOD_ID);
         ModRegistries.register(registry);
         registry.register();
+        net.orevia.fabric.worldgen.FabricWorldgen.register();
     }
 }

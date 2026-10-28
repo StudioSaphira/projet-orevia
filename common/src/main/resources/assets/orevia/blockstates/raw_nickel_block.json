@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "scp_genesis:block/raw_nickel_block"}
+    "": {
+      "model": "orevia:block/raw_nickel_block"
+    }
   }
 }

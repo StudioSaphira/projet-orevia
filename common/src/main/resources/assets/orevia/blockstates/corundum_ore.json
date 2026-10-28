@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "scp_genesis:block/corundum_ore"}
+    "": {
+      "model": "orevia:block/corundum_ore"
+    }
   }
 }
