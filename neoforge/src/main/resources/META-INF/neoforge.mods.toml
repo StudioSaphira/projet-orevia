@@ -4,7 +4,7 @@ license="Custom"
 
 [[mods]]
 modId="orevia"
-version="0.1"
+version="${version}"
 displayName="Orevia"
 displayURL="https://saphira-studio.com"
 logoFile="logo.png"
@@ -29,6 +29,6 @@ description="A lightweight Minecraft mod introducing new ores, raw materials, an
 [[dependencies.orevia]]
     modId="saphyra"
     type="required"
-    versionRange="[0.1-beta1,)"
+    versionRange="[0.3,)"
     ordering="AFTER"
     side="BOTH"
