@@ -57,6 +57,7 @@ tasks.register('buildJar', Jar) {
 tasks.register('buildAll') {
     dependsOn 'buildJar'
 }
+
 subprojects {
     repositories {
         def saphyraRepository = providers.gradleProperty('saphyraRepository')
@@ -74,6 +75,36 @@ subprojects {
             exclusiveContent {
                 forRepository { mavenLocal() }
                 filter { includeGroup 'net.saphyra' }
+            }
+        }
+    }
+}
+
+// A local file repository requires no hosting or credentials.
+subprojects {
+    apply plugin: 'maven-publish'
+    publishing {
+        repositories {
+            maven {
+                name = 'Development'
+                url = rootProject.layout.buildDirectory.dir('repo')
+            }
+        }
+    }
+}
+
+// Publish only the matching Saphyra variant; Common is already included in loader JARs.
+subprojects {
+    def saphyraArtifact = "saphyra-${project.name}-${rootProject.minecraft_version}".toString()
+    def saphyraVersion = rootProject.saphyra_version.toString()
+    afterEvaluate {
+        publishing.publications.withType(MavenPublication).configureEach {
+            pom.withXml {
+                def dependency = asNode().appendNode('dependencies').appendNode('dependency')
+                dependency.appendNode('groupId', 'net.saphyra')
+                dependency.appendNode('artifactId', saphyraArtifact)
+                dependency.appendNode('version', saphyraVersion)
+                dependency.appendNode('scope', 'compile')
             }
         }
     }

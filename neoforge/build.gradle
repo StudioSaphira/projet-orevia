@@ -51,9 +51,36 @@ dependencies {
     }
 }
 
-
-// Package Orevia Common, but keep Saphyra as a separate required mod.
 tasks.named('jar') {
     from(project(':common').sourceSets.main.output)
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
+java { withSourcesJar() }
+
+tasks.named('sourcesJar') {
+    from(project(':common').sourceSets.main.allSource)
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+def publicationVersion = project.version.toString()
+tasks.named('processResources') {
+    inputs.property('version', publicationVersion)
+    filesMatching(['fabric.mod.json', 'META-INF/neoforge.mods.toml']) {
+        expand(version: publicationVersion)
+    }
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifactId = "orevia-neoforge-${rootProject.minecraft_version}"
+            artifact(tasks.named('jar')) { classifier = null }
+            artifact(tasks.named('sourcesJar')) { classifier = 'sources' }
+            pom {
+                name = 'Orevia neoforge'
+                description = 'Orevia resources for Minecraft 1.21.1'
+            }
+        }
+    }
+}
+
+base { archivesName = "orevia-neoforge-${rootProject.minecraft_version}" }

@@ -91,3 +91,21 @@ dependencies {
         transitive = false
     }
 }
+
+java { withSourcesJar() }
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifactId = "orevia-common-${rootProject.minecraft_version}"
+            artifact(tasks.named('jar')) { classifier = null }
+            artifact(tasks.named('sourcesJar')) { classifier = 'sources' }
+            pom {
+                name = 'Orevia common'
+                description = 'Orevia shared API in Mojang mappings'
+            }
+        }
+    }
+}
+
+base { archivesName = "orevia-common-${rootProject.minecraft_version}" }
