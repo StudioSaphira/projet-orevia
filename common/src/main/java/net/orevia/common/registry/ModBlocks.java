@@ -1,13 +1,7 @@
 package net.orevia.common.registry;
 
 import net.minecraft.world.level.block.Block;
-import net.orevia.common.blocks.Bauxite;
-import net.orevia.common.blocks.NickelOre;
-import net.orevia.common.blocks.ChromiteOre;
-import net.orevia.common.blocks.PyrolusiteOre;
-import net.orevia.common.blocks.CorundumOre;
-import net.orevia.common.blocks.RawMineralBlock;
-import net.orevia.common.blocks.NickelBlock;
+import net.orevia.common.blocks.*;
 import net.saphyra.common.platform.PlatformRegistry;
 import net.saphyra.common.platform.PlatformRegistryObject;
 
@@ -17,6 +11,13 @@ public final class ModBlocks {
     private ModBlocks() {}
 
     public static PlatformRegistryObject<Block> BAUXITE;
+    public static PlatformRegistryObject<Block> POLISHEDBAUXITE;
+    public static PlatformRegistryObject<Block> BAUXITE_STAIRS;
+    public static PlatformRegistryObject<Block> BAUXITE_SLAB;
+    public static PlatformRegistryObject<Block> BAUXITE_WALL;
+    public static PlatformRegistryObject<Block> POLISHED_BAUXITE_SLAB;
+    public static PlatformRegistryObject<Block> POLISHED_BAUXITE_STAIRS;
+
     public static PlatformRegistryObject<Block> NICKEL_ORE;
     public static PlatformRegistryObject<Block> DEEPSLATE_NICKEL_ORE;
     public static PlatformRegistryObject<Block> CHROMITE_ORE;
@@ -34,6 +35,12 @@ public final class ModBlocks {
     /** Declares content before the loader finalizes its registries. */
     public static void register(PlatformRegistry registry) {
         BAUXITE = registry.registerBlock("bauxite", Bauxite::new);
+        POLISHEDBAUXITE = registry.registerBlock("polished_bauxite", PolishedBauxite::new);
+        BAUXITE_STAIRS = registry.registerBlock("bauxite_stairs", BauxiteStairs::new);
+        BAUXITE_SLAB = registry.registerBlock("bauxite_slab", BauxiteSlab::new);
+        BAUXITE_WALL = registry.registerBlock("bauxite_wall", BauxiteWall::new);
+        POLISHED_BAUXITE_SLAB = registry.registerBlock("polished_bauxite_slab", PolishedBauxiteSlab::new);
+        POLISHED_BAUXITE_STAIRS = registry.registerBlock("polished_bauxite_stairs", PolishedBauxiteStairs::new);
         NICKEL_ORE = registry.registerBlock("nickel_ore", () -> new NickelOre(false));
         DEEPSLATE_NICKEL_ORE = registry.registerBlock("deepslate_nickel_ore", () -> new NickelOre(true));
         CHROMITE_ORE = registry.registerBlock("chromite_ore", () -> new ChromiteOre(false));

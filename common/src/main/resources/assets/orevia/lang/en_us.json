@@ -20,5 +20,11 @@
   "item.orevia.ruby": "Ruby",
   "item.orevia.sapphire": "Sapphire",
   "item.orevia.titanium": "Titanium",
-  "item_group.orevia.building_blocks": "Orevia - Ores"
+  "item_group.orevia.building_blocks": "Orevia - Ores",
+  "block.orevia.bauxite_stairs": "Bauxite Stairs",
+  "block.orevia.bauxite_slab": "Bauxite Slab",
+  "block.orevia.bauxite_wall": "Bauxite Wall",
+  "block.orevia.polished_bauxite_slab": "Polished Bauxite Slab",
+  "block.orevia.polished_bauxite_stairs": "Polished Bauxite Stairs",
+  "block.orevia.polished_bauxite": "Polished Bauxite"
 }

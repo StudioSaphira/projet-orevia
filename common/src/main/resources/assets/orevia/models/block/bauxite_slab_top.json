@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "orevia:block/bauxite",
+    "side": "orevia:block/bauxite",
+    "top": "orevia:block/bauxite"
+  }
+}

@@ -20,5 +20,11 @@
   "item.orevia.ruby": "Rubis",
   "item.orevia.sapphire": "Saphir",
   "item.orevia.titanium": "Titane",
-  "item_group.orevia.building_blocks": "Orevia - Minerais"
+  "item_group.orevia.building_blocks": "Orevia - Minerais",
+  "block.orevia.bauxite_stairs": "Escalier en bauxite",
+  "block.orevia.bauxite_slab": "Dalle en bauxite",
+  "block.orevia.bauxite_wall": "Muret en bauxite",
+  "block.orevia.polished_bauxite_slab": "Dalle en bauxite polie",
+  "block.orevia.polished_bauxite_stairs": "Escalier en bauxite polie",
+  "block.orevia.polished_bauxite": "Bauxite polie"
 }

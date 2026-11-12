@@ -12,6 +12,13 @@ public final class ModItems {
     private ModItems() {}
 
     public static PlatformRegistryObject<Item> BAUXITE;
+    public static PlatformRegistryObject<Item> POLISHEDBAUXITE;
+    public static PlatformRegistryObject<Item> BAUXITE_STAIRS;
+    public static PlatformRegistryObject<Item> BAUXITE_SLAB;
+    public static PlatformRegistryObject<Item> BAUXITE_WALL;
+    public static PlatformRegistryObject<Item> POLISHED_BAUXITE_SLAB;
+    public static PlatformRegistryObject<Item> POLISHED_BAUXITE_STAIRS;
+
     public static PlatformRegistryObject<Item> NICKEL_ORE;
     public static PlatformRegistryObject<Item> DEEPSLATE_NICKEL_ORE;
     public static PlatformRegistryObject<Item> CHROMITE_ORE;
@@ -34,6 +41,12 @@ public final class ModItems {
     /** Declares content before the loader finalizes its registries. */
     public static void register(PlatformRegistry registry) {
         BAUXITE = registry.registerBlockItem("bauxite", ModBlocks.BAUXITE);
+        POLISHEDBAUXITE = registry.registerBlockItem("polished_bauxite", ModBlocks.POLISHEDBAUXITE);
+        BAUXITE_STAIRS = registry.registerBlockItem("bauxite_stairs", ModBlocks.BAUXITE_STAIRS);
+        BAUXITE_SLAB = registry.registerBlockItem("bauxite_slab", ModBlocks.BAUXITE_SLAB);
+        BAUXITE_WALL = registry.registerBlockItem("bauxite_wall", ModBlocks.BAUXITE_WALL);
+        POLISHED_BAUXITE_SLAB = registry.registerBlockItem("polished_bauxite_slab", ModBlocks.POLISHED_BAUXITE_SLAB);
+        POLISHED_BAUXITE_STAIRS = registry.registerBlockItem("polished_bauxite_stairs", ModBlocks.POLISHED_BAUXITE_STAIRS);
         NICKEL_ORE = registry.registerBlockItem("nickel_ore", ModBlocks.NICKEL_ORE);
         DEEPSLATE_NICKEL_ORE = registry.registerBlockItem("deepslate_nickel_ore", ModBlocks.DEEPSLATE_NICKEL_ORE);
         CHROMITE_ORE = registry.registerBlockItem("chromite_ore", ModBlocks.CHROMITE_ORE);

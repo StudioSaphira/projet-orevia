@@ -13,6 +13,12 @@
     "orevia:raw_nickel_block",
     "orevia:raw_chromite_block",
     "orevia:raw_pyrolusite_block",
-    "orevia:nickel_block"
+    "orevia:nickel_block",
+    "orevia:bauxite_stairs",
+    "orevia:bauxite_slab",
+    "orevia:bauxite_wall",
+    "orevia:polished_bauxite_slab",
+    "orevia:polished_bauxite_stairs",
+    "orevia:polished_bauxite"
   ]
 }

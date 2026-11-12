@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "orevia:block/bauxite",
+    "side": "orevia:block/bauxite",
+    "top": "orevia:block/bauxite"
+  }
+}

@@ -35,6 +35,12 @@ public final class ModTabs {
 								.displayItems(
 										(parameters, tabData) -> {
 											tabData.accept(ModItems.BAUXITE.get());
+                                            tabData.accept(ModItems.BAUXITE_STAIRS.get());
+                                            tabData.accept(ModItems.BAUXITE_SLAB.get());
+                                            tabData.accept(ModItems.BAUXITE_WALL.get());
+											tabData.accept(ModItems.POLISHEDBAUXITE.get());
+                                            tabData.accept(ModItems.POLISHED_BAUXITE_SLAB.get());
+                                            tabData.accept(ModItems.POLISHED_BAUXITE_STAIRS.get());
 											tabData.accept(ModItems.NICKEL_ORE.get());
 											tabData.accept(ModItems.DEEPSLATE_NICKEL_ORE.get());
                                             tabData.accept(ModItems.RAW_NICKEL.get());
