@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "orevia:block/pyrolusite_ore"
+    "layer0": "orevia:item/raw_pyrolusite"
   }
 }
